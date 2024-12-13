@@ -15,9 +15,5 @@ for k in numbers:
         if k > 1:
             not_primes.append(k)
 
-
-
-
-
 print('primes: ', primes)
 print('not_primes: ', not_primes)
