@@ -10,11 +10,14 @@ for i in range(len(numbers)):
                 break
         else:
             primes.append(i)
-            for j in range(2, i):
-                if (i % j) != 0:
-                    break
-            else:
-                not_primes.append(i)
+
+for k in numbers:
+    if k not in primes:
+        if k > 1:
+            not_primes.append(k)
+
+
+
 
 
 print('primes: ', primes)
